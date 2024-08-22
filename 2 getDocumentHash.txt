@@ -1,0 +1,46 @@
+public static string SerializeJson(object doc)
+        {
+            var settings = new JsonSerializerSettings
+            {
+                DateFormatString = "yyyy-MM-ddTH:mmZ",
+                DateTimeZoneHandling = DateTimeZoneHandling.Utc,
+                NullValueHandling = NullValueHandling.Ignore
+            };
+
+            var jsonString = JsonConvert.SerializeObject(doc, settings);
+
+            return jsonString;
+        }
+
+        public static byte[] Sha256Hash(string text)
+        {
+            using (SHA256 sha256 = SHA256.Create())
+            {
+                byte[] byteData = Encoding.UTF8.GetBytes(text);
+                var hashBytes = sha256.ComputeHash(byteData);
+
+                return hashBytes;
+            }
+        }
+
+
+/* Get Document String */
+ private void btnSubmitDummyWithSignature_Click(object sender, EventArgs e)
+{
+            var docJsonString = getJsonObjectHardcoded();
+            Console.WriteLine("Doc Without Signature: " + docJsonString);
+
+            //string abc = JsonSerializer.Serialize(docJsonString, new JsonSerializerOptions { WriteIndented = true });
+            //JObject test = JObject.Parse(abc);
+
+            //string json = JsonConvert.SerializeObject(jsonDoc, Formatting.Indented);
+            // minified json
+            string docString = SerializeJson(docJsonString);
+            Console.WriteLine("After SerializeJson: " + docString);
+
+            byte[] docHash = Sha256Hash(docString);
+
+            var docDigest = Convert.ToBase64String(docHash); //Replace to {{Replace Value 1}}
+            Console.WriteLine("Doc Digest:" + docDigest);
+
+}

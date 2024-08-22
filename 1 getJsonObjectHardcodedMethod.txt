@@ -1,0 +1,1535 @@
+private object getJsonObjectHardcoded()
+        {
+            var jsonObject = new
+            {
+                _D = "urn:oasis:names:specification:ubl:schema:xsd:Invoice-2",
+                _A = "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2",
+                _B = "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2",
+                Invoice = new[]
+                {
+                    new
+                    {
+                        ID = new[]
+                        {
+                            new
+                            {
+                                _ = "IV000020240819-005"
+                            }
+                        },
+                        IssueDate = new[]
+                        {
+                            new
+                            {
+                                _ = "2024-08-21"
+                            }
+                        },
+                        IssueTime = new[]
+                        {
+                            new
+                            {
+                                _ = "07:26:00Z"
+                            }
+                        },
+                        InvoiceTypeCode = new[]
+                        {
+                            new
+                            {
+                                _ = "01",
+                                listVersionID = "1.1"
+                            }
+                        },
+                        DocumentCurrencyCode = new[]
+                        {
+                            new
+                            {
+                                _ = "MYR"
+                            }
+                        },
+                        InvoicePeriod = new[]
+                        {
+                            new
+                            {
+                                StartDate = new[]
+                                {
+                                    new
+                                    {
+                                        _ = "2024-08-21"
+                                    }
+                                },
+                                EndDate = new[]
+                                {
+                                    new
+                                    {
+                                        _ = "2024-08-21"
+                                    }
+                                },
+                                Description = new[]
+                                {
+                                    new
+                                    {
+                                        _ = "Daily"
+                                    }
+                                }
+                            }
+                        },
+                        BillingReference = new []
+                        {
+                            new
+                            {
+                                AdditionalDocumentReference = new[]
+                                {
+                                    new
+                                    {
+                                        ID = new[]
+                                        {
+                                            new
+                                            {
+                                                _ = "NA"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        AccountingSupplierParty = new[]
+                        {
+                            new
+                            {
+                                Party = new[]
+                                {
+                                    new
+                                    {
+                                        IndustryClassificationCode = new[]
+                                        {
+                                            new
+                                            {
+                                                _ = "62099",
+                                                name = "Other information technology service activities n.e.c.",
+                                            }
+                                        },
+                                        PartyIdentification = new[]
+                                        {
+                                            new
+                                            {
+                                                ID = new[]
+                                                {
+                                                    new
+                                                    {
+                                                        //_ = "{{ supplier_tin }}",
+                                                        _ = "C123456789",
+                                                        schemeID = "TIN",
+                                                    }
+                                                },
+
+                                            },
+                                            new
+                                            {
+                                                ID = new[]
+                                                {
+                                                    new
+                                                    {
+                                                        //_ = "{{ supplier_brn }}",
+                                                        _ = "123412341234",
+                                                        schemeID = "BRN",
+                                                    }
+                                                }
+                                            },
+                                            new
+                                            {
+                                                ID = new[]
+                                                {
+                                                    new
+                                                    {
+                                                        _ = "NA",
+                                                        schemeID = "SST",
+                                                    }
+                                                }
+                                            },
+                                            new
+                                            {
+                                                ID = new[]
+                                                {
+                                                    new
+                                                    {
+                                                        _ = "NA",
+                                                        schemeID = "TTX",
+                                                    }
+                                                },
+
+                                            }
+                                        },
+                                        PostalAddress = new []
+                                        {
+                                            new
+                                            {
+                                                CityName = new[]
+                                                {
+                                                    new
+                                                    {
+                                                         //_ = "{{ supplier_address_city }}"
+                                                         _ = "KUALA LUMPUR"
+                                                    }
+                                                },
+                                                PostalZone = new[]
+                                                {
+                                                    new
+                                                    {
+                                                         //_ = "{{ supplier_postal_zone }}"
+                                                         _ = "50480"
+                                                    }
+                                                },
+                                                CountrySubentityCode = new[]
+                                                {
+                                                    new
+                                                    {
+                                                         _ = "10"
+                                                    }
+                                                },
+                                                AddressLine = new[]
+                                                {
+                                                    new
+                                                    {
+                                                         Line = new[]
+                                                         {
+                                                             new
+                                                             {
+                                                                 //_ = "{{ supplier_address_line1 }}"
+                                                                 _ = "LOT 66, JALAN EMAS"
+                                                             }
+                                                         }
+                                                    },
+                                                    new
+                                                    {
+                                                         Line = new[]
+                                                         {
+                                                             new
+                                                             {
+                                                                 //_ = "{{ supplier_address_line2 }}"
+                                                                 _ = "BANGUNAN NANAS"
+                                                             }
+                                                         }
+                                                    },
+                                                    new
+                                                    {
+                                                         Line = new[]
+                                                         {
+                                                             new
+                                                             {
+                                                                 //_ = "{{ supplier_address_line2 }}"
+                                                                 _ = "OFF EAST COAST"
+                                                             }
+                                                         }
+                                                    }
+                                                },
+                                                Country = new[]
+                                                {
+                                                    new
+                                                    {
+                                                         IdentificationCode = new[]
+                                                         {
+                                                             new
+                                                             {
+                                                                 _ = "MYS",
+                                                                 listID = "ISO3166-1",
+                                                                 listAgencyID = "6"
+                                                             }
+                                                         }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        PartyLegalEntity = new[]
+                                        {
+                                            new
+                                            {
+                                                RegistrationName = new[]
+                                                {
+                                                    new
+                                                    {
+                                                        _ = "Other information technology service activities n.e.c."
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        Contact = new[]
+                                        {
+                                            new
+                                            {
+                                                Telephone = new[]
+                                                {
+                                                    new
+                                                    {
+                                                        _ = "{{ supplier_telephone }}"
+                                                    }
+                                                },
+                                                ElectronicMail = new[]
+                                                {
+                                                    new
+                                                    {
+                                                        //_ = "{{ supplier_email }}"
+                                                        _ = "example@gmail.com"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        AccountingCustomerParty = new[]
+                        {
+                            new
+                            {
+                                Party = new[]
+                                {
+                                    new
+                                    {
+                                        PartyIdentification = new[]
+                                        {
+                                            new
+                                            {
+                                                ID = new[]
+                                                {
+                                                    new
+                                                    {
+                                                        //_ = "{{ customer_tin }}",
+                                                        _ = "EI00000000020",
+                                                        schemeID = "TIN",
+                                                    }
+                                                },
+
+                                            },
+                                            new
+                                            {
+                                                ID = new[]
+                                                {
+                                                    new
+                                                    {
+                                                        //_ = "{{ customer_brn }}",
+                                                        _ = "NA",
+                                                        schemeID = "BRN",
+                                                    }
+                                                }
+                                            },
+                                            new
+                                            {
+                                                ID = new[]
+                                                {
+                                                    new
+                                                    {
+                                                        _ = "NA",
+                                                        schemeID = "SST",
+                                                    }
+                                                }
+                                            },
+                                            new
+                                            {
+                                                ID = new[]
+                                                {
+                                                    new
+                                                    {
+                                                        _ = "NA",
+                                                        schemeID = "TTX",
+                                                    }
+                                                },
+
+                                            }
+                                        },
+                                        PostalAddress = new []
+                                        {
+                                            new
+                                            {
+                                                CityName = new[]
+                                                {
+                                                    new
+                                                    {
+                                                         //_ = "{{ customer_address_city }}"
+                                                         _ = "SUBANG"
+                                                    }
+                                                },
+                                                PostalZone = new[]
+                                                {
+                                                    new
+                                                    {
+                                                         //_ = "{{ customer_address_city }}"
+                                                         _ = "50480"
+                                                    }
+                                                },
+                                                CountrySubentityCode = new[]
+                                                {
+                                                    new
+                                                    {
+                                                         _ = "10"
+                                                    }
+                                                },
+                                                AddressLine = new[]
+                                                {
+                                                    new
+                                                    {
+                                                         Line = new[]
+                                                         {
+                                                             new
+                                                             {
+                                                                 //_ = "{{ customer_address_line1 }}"
+                                                                 _ = "PERSIARAN BANDAR TIMUR"
+                                                             }
+                                                         }
+                                                    },
+                                                    new
+                                                    {
+                                                         Line = new[]
+                                                         {
+                                                             new
+                                                             {
+                                                                 //_ = "{{ customer_address_line2 }}"
+                                                                 _ = "SUBLOT 1001"
+                                                             }
+                                                         }
+                                                    },
+                                                    new
+                                                    {
+                                                         Line = new[]
+                                                         {
+                                                             new
+                                                             {
+                                                                 //_ = "{{ customer_address_line2 }}"
+                                                                 _ = "COASTAL HIGHWAY"
+                                                             }
+                                                         }
+                                                    }
+                                                },
+                                                Country = new[]
+                                                {
+                                                    new
+                                                    {
+                                                         IdentificationCode = new[]
+                                                         {
+                                                             new
+                                                             {
+                                                                 _ = "MYS",
+                                                                 listID = "ISO3166-1",
+                                                                 listAgencyID = "6"
+                                                             }
+                                                         }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        PartyLegalEntity = new[]
+                                        {
+                                            new
+                                            {
+                                                RegistrationName = new[]
+                                                {
+                                                    new
+                                                    {
+                                                        _ = "Hexleads service activities n.e.c."
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        Contact = new[]
+                                        {
+                                            new
+                                            {
+                                                Telephone = new[]
+                                                {
+                                                    new
+                                                    {
+                                                        _ = "{{ customer_telephone }}"
+                                                    }
+                                                },
+                                                ElectronicMail = new[]
+                                                {
+                                                    new
+                                                    {
+                                                        _ = "{{ customer_email }}"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        Delivery = new[]
+                        {
+                            new
+                            {
+                                DeliveryParty = new[]
+                                {
+                                    new
+                                    {
+                                        PartyLegalEntity = new[]
+                                        {
+                                            new
+                                            {
+                                                RegistrationName = new[]
+                                                {
+                                                    new
+                                                    {
+                                                        _= "Recipient's Name"
+                                                    }
+                                                }
+
+                                            }
+                                        },
+                                        PostalAddress = new []
+                                        {
+                                            new
+                                            {
+                                                CityName = new[]
+                                                {
+                                                    new
+                                                    {
+                                                            _ = "{{ postal_city }}"
+                                                    }
+                                                },
+                                                PostalZone = new[]
+                                                {
+                                                    new
+                                                    {
+                                                            _ = "{{ postal_zone }}"
+                                                    }
+                                                },
+                                                CountrySubentityCode = new[]
+                                                {
+                                                    new
+                                                    {
+                                                            _ = "10"
+                                                    }
+                                                },
+                                                AddressLine = new[]
+                                                {
+                                                    new
+                                                    {
+                                                            Line = new[]
+                                                            {
+                                                                new
+                                                                {
+                                                                    _ = "{{ postal_address_line1 }}"
+                                                                }
+                                                            }
+                                                    },
+                                                    new
+                                                    {
+                                                            Line = new[]
+                                                            {
+                                                                new
+                                                                {
+                                                                    _ = "{{ postal_address_line2 }}"
+                                                                }
+                                                            }
+                                                    },
+                                                    new
+                                                    {
+                                                            Line = new[]
+                                                            {
+                                                                new
+                                                                {
+                                                                    _ = "{{ postal_address_line2 }}"
+                                                                }
+                                                            }
+                                                    }
+                                                },
+                                                Country = new[]
+                                                {
+                                                    new
+                                                    {
+                                                            IdentificationCode = new[]
+                                                            {
+                                                                new
+                                                                {
+                                                                    _ = "MYS",
+                                                                    listID = "ISO3166-1",
+                                                                    listAgencyID = "6"
+                                                                }
+                                                            }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        PartyIdentification = new[]
+                                        {
+                                            new
+                                            {
+                                                ID = new[]
+                                                {
+                                                    new
+                                                    {
+                                                        //_ = "{{ receipient_tin }}",
+                                                        _ = "EI00000000020",
+                                                        schemeID = "TIN",
+                                                    }
+                                                },
+
+                                            },
+                                            new
+                                            {
+                                                ID = new[]
+                                                {
+                                                    new
+                                                    {
+                                                        //_ = "{{ receipient_brn }}",
+                                                        _ = "NA",
+                                                        schemeID = "BRN",
+                                                    }
+                                                }
+                                            },
+                                            new
+                                            {
+                                                ID = new[]
+                                                {
+                                                    new
+                                                    {
+                                                        _ = "NA",
+                                                        schemeID = "SST",
+                                                    }
+                                                }
+                                            },
+                                            new
+                                            {
+                                                ID = new[]
+                                                {
+                                                    new
+                                                    {
+                                                        _ = "NA",
+                                                        schemeID = "TTX",
+                                                    }
+                                                },
+
+                                            }
+                                        }
+                                    }
+                                },
+                                Shipment = new[]
+                                {
+                                    new
+                                    {
+                                        ID = new[]
+                                        {
+                                            new
+                                            {
+                                                _ = "1234"
+                                            }
+                                        },
+                                        FreightAllowanceCharge = new[]
+                                        {
+                                            new
+                                            {
+                                                ChargeIndicator = new[]
+                                                {
+                                                    new
+                                                    {
+                                                        _ = true
+                                                    }
+                                                },
+                                                AllowanceChargeReason = new[]
+                                                {
+                                                    new
+                                                    {
+                                                        _ = "Service charge"
+                                                    }
+                                                },
+                                                Amount = new[]
+                                                {
+                                                    new
+                                                    {
+                                                        _ = 100.0,
+                                                        currencyID = "MYR"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        PaymentMeans = new[]
+                        {
+                            new
+                            {
+                                PaymentMeansCode = new[]
+                                {
+                                    new
+                                    {
+                                        _ = "03"
+                                    }
+                                },
+                                PayeeFinancialAccount = new[]
+                                {
+                                    new
+                                    {
+                                        ID = new[]
+                                        {
+                                            new
+                                            {
+                                                _ = "1234567890123"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        PaymentTerms = new[]
+                        {
+                            new
+                            {
+                                Note = new[]
+                                {
+                                    new
+                                    {
+                                        _ = "Payment method is cash"
+                                    }
+                                }
+                            }
+                        },
+                        PrepaidPayment = new[]
+                        {
+                            new
+                            {
+                                ID = new[]
+                                {
+                                    new
+                                    {
+                                        _ = "Payment method is cash"
+                                    }
+                                },
+                                PaidAmount = new[]
+                                {
+                                    new
+                                    {
+                                        _ = 1,
+                                        currencyID = "MYR"
+                                    }
+                                },
+                                PaidDate = new[]
+                                {
+                                    new
+                                    {
+                                        _ = "2024-08-21"
+                                    }
+                                },
+                                PaidTime = new[]
+                                {
+                                    new
+                                    {
+                                        _ = "00:30:00Z"
+                                    }
+                                }
+                            }
+                        },
+                        AllowanceCharge = new[]
+                        {
+                            new
+                            {
+                                ChargeIndicator = new[]
+                                {
+                                    new
+                                    {
+                                        _ = false
+                                    }
+                                },
+                                AllowanceChargeReason = new[]
+                                {
+                                    new
+                                    {
+                                        _ = "Sample Description"
+                                    }
+                                },
+                                Amount = new[]
+                                {
+                                    new
+                                    {
+                                        _ = 100.0,
+                                        currencyID = "MYR"
+                                    }
+                                }
+                            },
+                            new
+                            {
+                                ChargeIndicator = new[]
+                                {
+                                    new
+                                    {
+                                        _ = true
+                                    }
+                                },
+                                AllowanceChargeReason = new[]
+                                {
+                                    new
+                                    {
+                                        _ = "Service charge"
+                                    }
+                                },
+                                Amount = new[]
+                                {
+                                    new
+                                    {
+                                        _ = 100.0,
+                                        currencyID = "MYR"
+                                    }
+                                }
+                            }
+                        },
+                        TaxTotal = new[]
+                        {
+                            new
+                            {
+                                TaxAmount = new[]
+                                {
+                                    new
+                                    {
+                                        _ = 87.63,
+                                        currencyID = "MYR"
+                                    }
+                                },
+                                TaxSubtotal= new[]
+                                {
+                                    new
+                                    {
+                                        TaxableAmount = new[]
+                                        {
+                                            new
+                                            {
+                                                _ = 87.63,
+                                                currencyID = "MYR"
+                                            }
+                                        },
+                                        TaxAmount = new[]
+                                        {
+                                            new
+                                            {
+                                                _ = 87.63,
+                                                currencyID = "MYR"
+                                            }
+                                        },
+                                        TaxCategory = new[]
+                                        {
+                                            new
+                                            {
+                                                ID = new[]
+                                                {
+                                                    new
+                                                    {
+                                                        _ = "01"
+                                                    }
+                                                },
+                                                TaxScheme = new[]
+                                                {
+                                                    new
+                                                    {
+                                                        ID = new[]
+                                                        {
+                                                            new
+                                                            {
+                                                                _ = "OTH",
+                                                                schemeID = "UN/ECE 5153",
+                                                                schemeAgencyID = "6"
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        LegalMonetaryTotal = new[]
+                        {
+                            new
+                            {
+                                LineExtensionAmount = new[]
+                                {
+                                    new
+                                    {
+                                        _ = 1436.5,
+                                        currencyID = "MYR"
+                                    }
+                                },
+                                TaxExclusiveAmount = new[]
+                                {
+                                    new
+                                    {
+                                        _ = 1436.5,
+                                        currencyID = "MYR"
+                                    }
+                                },
+                                TaxInclusiveAmount = new[]
+                                {
+                                    new
+                                    {
+                                        _ = 1436.5,
+                                        currencyID = "MYR"
+                                    }
+                                },
+                                AllowanceTotalAmount = new[]
+                                {
+                                    new
+                                    {
+                                        _ = 1436.5,
+                                        currencyID = "MYR"
+                                    }
+                                },
+                                ChargeTotalAmount = new[]
+                                {
+                                    new
+                                    {
+                                        _ = 1436,
+                                        currencyID = "MYR"
+                                    }
+                                },
+                                PayableRoundingAmount = new[]
+                                {
+                                    new
+                                    {
+                                        _ = 1436.5,
+                                        currencyID = "MYR"
+                                    }
+                                },
+                                PayableAmount = new[]
+                                {
+                                    new
+                                    {
+                                        _ = 1436.5,
+                                        currencyID = "MYR"
+                                    }
+                                }
+                            }
+                        },
+                        InvoiceLine = new[]
+                        {
+                            new
+                            {
+                            ID = new[]
+                            {
+                                new
+                                {
+                                    _= 1
+                                }
+                            },
+                            InvoicedQuantity = new[]
+                            {
+                                new
+                                {
+                                    _= 1,
+                                    unitCode = "C62"
+                                }
+                            },
+                            LineExtensionAmount = new[]
+                            {
+                                new
+                                {
+                                    _ = 1436.5,
+                                    currencyID = "MYR"
+                                }
+                            },
+                            AllowanceCharge = new[]
+                            {
+                                new
+                                {
+                                    ChargeIndicator = new[]
+                                    {
+                                        new
+                                        {
+                                            _ = false
+                                        }
+                                    },
+                                    AllowanceChargeReason = new[]
+                                    {
+                                        new
+                                        {
+                                            _ = "Sample Description"
+                                        }
+                                    },
+                                    MultiplierFactorNumeric = new[]
+                                    {
+                                        new
+                                        {
+                                            _ = 0.15
+                                        }
+                                    },
+                                    Amount = new[]
+                                    {
+                                        new
+                                        {
+                                            _ = 100,
+                                            currencyID = "MYR"
+                                        }
+                                    }
+                                },
+                                new
+                                {
+                                    ChargeIndicator = new[]
+                                    {
+                                        new
+                                        {
+                                            _ = true
+                                        }
+                                    },
+                                    AllowanceChargeReason = new[]
+                                    {
+                                        new
+                                        {
+                                            _ = "Sample Description"
+                                        }
+                                    },
+                                    MultiplierFactorNumeric = new[]
+                                    {
+                                        new
+                                        {
+                                            _ = 0.1
+                                        }
+                                    },
+                                    Amount = new[]
+                                    {
+                                        new
+                                        {
+                                            _ = 100,
+                                            currencyID = "MYR"
+                                        }
+                                    }
+                                }
+                            },
+                            TaxTotal = new[]
+                            {
+                                new
+                                {
+                                    TaxAmount = new[]
+                                    {
+                                        new
+                                        {
+                                            _ = 1460.5,
+                                            currencyID = "MYR"
+                                        }
+                                    },
+                                    TaxSubtotal= new[]
+                                    {
+                                        new
+                                        {
+                                            TaxableAmount = new[]
+                                            {
+                                                new
+                                                {
+                                                    _ = 1460.5,
+                                                    currencyID = "MYR"
+                                                }
+                                            },
+                                            TaxAmount = new[]
+                                            {
+                                                new
+                                                {
+                                                    _ = 1460.5,
+                                                    currencyID = "MYR"
+                                                }
+                                            },
+                                            Percent = new[]
+                                            {
+                                                new
+                                                {
+                                                    _ = 6
+                                                }
+                                            },
+                                            TaxCategory = new[]
+                                            {
+                                                new
+                                                {
+                                                    ID = new[]
+                                                    {
+                                                        new
+                                                        {
+                                                            _ = "E"
+                                                        }
+                                                    },
+                                                    TaxExemptionReason = new[]
+                                                    {
+                                                        new
+                                                        {
+                                                            _ = "Exempt New Means of Transport"
+                                                        }
+                                                    },
+                                                    TaxScheme = new[]
+                                                    {
+                                                        new
+                                                        {
+                                                            ID = new[]
+                                                            {
+                                                                new
+                                                                {
+                                                                    _ = "OTH",
+                                                                    schemeID = "UN/ECE 5153",
+                                                                    schemeAgencyID = "6"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            Item = new[]
+                            {
+                                new
+                                {
+                                    CommodityClassification = new[]
+                                    {
+                                        new
+                                        {
+                                            ItemClassificationCode = new[]
+                                            {
+                                                new
+                                                {
+                                                    _ = "{{ item_class_code }}",
+                                                    listID = "PTC"
+                                                }
+                                            }
+                                        },
+                                        new
+                                        {
+                                            ItemClassificationCode = new[]
+                                            {
+                                                new
+                                                {
+                                                    _ = "003",
+                                                    listID = "CLASS"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    Description = new[]
+                                    {
+                                        new
+                                        {
+                                            _ = "Laptop Peripherals"
+                                        }
+                                    },
+                                    OriginCountry = new[]
+                                    {
+                                        new
+                                        {
+                                            IdentificationCode = new[]
+                                            {
+                                                new
+                                                {
+                                                    _ = "MYS"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            Price = new[]
+                            {
+                                new
+                                {
+                                    PriceAmount = new[]
+                                    {
+                                        new
+                                        {
+                                            _ = 17,
+                                            currencyID = "MYR"
+                                        }
+                                    }
+                                }
+                            },
+                            ItemPriceExtension = new[]
+                            {
+                                new
+                                {
+                                    Amount = new[]
+                                    {
+                                        new
+                                        {
+                                            _ = 100,
+                                            currencyID = "MYR"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        }
+                    }
+                }
+            };
+
+            return jsonObject;
+        }
+
+        private object getJsonObject()
+        {
+            var InvoiceLine = new[]
+            {
+                getInvoiceLineJsonObject("1")
+                //getInvoiceLineJsonObject("2")
+            };
+
+            var jsonObject = new
+            {
+                _D = "urn:oasis:names:specification:ubl:schema:xsd:Invoice-2",
+                _A = "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2",
+                _B = "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2",
+                Invoice = new[]
+                {
+                    new
+                    {
+                        ID = new[]
+                        {
+                            new
+                            {
+                                _ = "IV000020240819-005"
+                            }
+                        },
+                        IssueDate = new[]
+                        {
+                            new
+                            {
+                                _ = "2024-08-21"
+                            }
+                        },
+                        IssueTime = new[]
+                        {
+                            new
+                            {
+                                _ = "07:26:00Z"
+                            }
+                        },
+                        InvoiceTypeCode = new[]
+                        {
+                            new
+                            {
+                                _ = "01",
+                                listVersionID = "1.1"
+                            }
+                        },
+                        DocumentCurrencyCode = new[]
+                        {
+                            new
+                            {
+                                _ = "MYR"
+                            }
+                        },
+                        InvoicePeriod = new[]
+                        {
+                            new
+                            {
+                                StartDate = new[]
+                                {
+                                    new
+                                    {
+                                        _ = "2024-08-21"
+                                    }
+                                },
+                                EndDate = new[]
+                                {
+                                    new
+                                    {
+                                        _ = "2024-08-21"
+                                    }
+                                },
+                                Description = new[]
+                                {
+                                    new
+                                    {
+                                        _ = "Daily"
+                                    }
+                                }
+                            }
+                        },
+                        BillingReference = new []
+                        {
+                            new
+                            {
+                                AdditionalDocumentReference = new[]
+                                {
+                                    new
+                                    {
+                                        ID = new[]
+                                        {
+                                            new
+                                            {
+                                                _ = "NA"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        AccountingSupplierParty = new[]
+                        {
+                            getSupplierJsonObject()
+                        },
+                        AccountingCustomerParty = new[]
+                        {
+                            getCustomerJsonObject()
+                        },
+                        Delivery = new[]
+                        {
+                            getDeliveryJsonObject()
+                        },
+                        PaymentMeans = new[]
+                        {
+                            new
+                            {
+                                PaymentMeansCode = new[]
+                                {
+                                    new
+                                    {
+                                        _ = "03"
+                                    }
+                                },
+                                PayeeFinancialAccount = new[]
+                                {
+                                    new
+                                    {
+                                        ID = new[]
+                                        {
+                                            new
+                                            {
+                                                _ = "1234567890123"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        PaymentTerms = new[]
+                        {
+                            new
+                            {
+                                Note = new[]
+                                {
+                                    new
+                                    {
+                                        _ = "Payment method is cash"
+                                    }
+                                }
+                            }
+                        },
+                        PrepaidPayment = new[]
+                        {
+                            new
+                            {
+                                ID = new[]
+                                {
+                                    new
+                                    {
+                                        _ = "Payment method is cash"
+                                    }
+                                },
+                                PaidAmount = new[]
+                                {
+                                    new
+                                    {
+                                        _ = 1,
+                                        currencyID = "MYR"
+                                    }
+                                },
+                                PaidDate = new[]
+                                {
+                                    new
+                                    {
+                                        _ = "2024-08-21"
+                                    }
+                                },
+                                PaidTime = new[]
+                                {
+                                    new
+                                    {
+                                        _ = "00:30:00Z"
+                                    }
+                                }
+                            }
+                        },
+                        AllowanceCharge = new[]
+                        {
+                            new
+                            {
+                                ChargeIndicator = new[]
+                                {
+                                    new
+                                    {
+                                        _ = false
+                                    }
+                                },
+                                AllowanceChargeReason = new[]
+                                {
+                                    new
+                                    {
+                                        _ = "Sample Description"
+                                    }
+                                },
+                                Amount = new[]
+                                {
+                                    new
+                                    {
+                                        _ = 100.0,
+                                        currencyID = "MYR"
+                                    }
+                                }
+                            },
+                            new
+                            {
+                                ChargeIndicator = new[]
+                                {
+                                    new
+                                    {
+                                        _ = true
+                                    }
+                                },
+                                AllowanceChargeReason = new[]
+                                {
+                                    new
+                                    {
+                                        _ = "Service charge"
+                                    }
+                                },
+                                Amount = new[]
+                                {
+                                    new
+                                    {
+                                        _ = 100.0,
+                                        currencyID = "MYR"
+                                    }
+                                }
+                            }
+                        },
+                        TaxTotal = new[]
+                        {
+                            new
+                            {
+                                TaxAmount = new[]
+                                {
+                                    new
+                                    {
+                                        _ = 87.63,
+                                        currencyID = "MYR"
+                                    }
+                                },
+                                TaxSubtotal= new[]
+                                {
+                                    new
+                                    {
+                                        TaxableAmount = new[]
+                                        {
+                                            new
+                                            {
+                                                _ = 87.63,
+                                                currencyID = "MYR"
+                                            }
+                                        },
+                                        TaxAmount = new[]
+                                        {
+                                            new
+                                            {
+                                                _ = 87.63,
+                                                currencyID = "MYR"
+                                            }
+                                        },
+                                        TaxCategory = new[]
+                                        {
+                                            new
+                                            {
+                                                ID = new[]
+                                                {
+                                                    new
+                                                    {
+                                                        _ = "01"
+                                                    }
+                                                },
+                                                TaxScheme = new[]
+                                                {
+                                                    new
+                                                    {
+                                                        ID = new[]
+                                                        {
+                                                            new
+                                                            {
+                                                                _ = "OTH",
+                                                                schemeID = "UN/ECE 5153",
+                                                                schemeAgencyID = "6"
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        LegalMonetaryTotal = new[]
+                        {
+                            new
+                            {
+                                LineExtensionAmount = new[]
+                                {
+                                    new
+                                    {
+                                        _ = 1436.5,
+                                        currencyID = "MYR"
+                                    }
+                                },
+                                TaxExclusiveAmount = new[]
+                                {
+                                    new
+                                    {
+                                        _ = 1436.5,
+                                        currencyID = "MYR"
+                                    }
+                                },
+                                TaxInclusiveAmount = new[]
+                                {
+                                    new
+                                    {
+                                        _ = 1436.5,
+                                        currencyID = "MYR"
+                                    }
+                                },
+                                AllowanceTotalAmount = new[]
+                                {
+                                    new
+                                    {
+                                        _ = 1436.5,
+                                        currencyID = "MYR"
+                                    }
+                                },
+                                ChargeTotalAmount = new[]
+                                {
+                                    new
+                                    {
+                                        _ = 1436,
+                                        currencyID = "MYR"
+                                    }
+                                },
+                                PayableRoundingAmount = new[]
+                                {
+                                    new
+                                    {
+                                        _ = 1436.5,
+                                        currencyID = "MYR"
+                                    }
+                                },
+                                PayableAmount = new[]
+                                {
+                                    new
+                                    {
+                                        _ = 1436.5,
+                                        currencyID = "MYR"
+                                    }
+                                }
+                            }
+                        },
+                        InvoiceLine = InvoiceLine
+                        //InvoiceLine = new[] {
+                        //    getInvoiceLineJsonObject("1"),
+                        //    getInvoiceLineJsonObject("2")
+                        //}
+                    }
+                }
+            };
+
+            return jsonObject;
+        }
